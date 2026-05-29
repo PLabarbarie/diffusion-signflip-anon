@@ -1,0 +1,6 @@
+torch
+diffusers
+Pillow
+numpy
+tqdm
+torchvision
