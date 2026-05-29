@@ -98,7 +98,7 @@ To download the face-recognition models, check in the fr_system directory the co
 To download the bisenet face parsing model, check the following link:
 - BiseNet: [BiseNet](https://yakhyo.github.io/face-parsing/)
 
-For our anonymization model, we provide pretrained ControlNet checkpoints under the following huggingface repository: [FFHQ ControlNet for Diffusion Sign-Flip Anonymization](https://huggingface.co/nvlabs/ffhq-controlnet-segmentation-signflip). These weights were trained on FFHQ for 15 epochs with the script in `train_controlnet.py`. You can also train your own ControlNets with different conditioning or datasets by following the instructions in that script. 
+For our anonymization model, we provide pretrained ControlNet checkpoints under the following huggingface repository: [FFHQ ControlNet for Diffusion Sign-Flip Anonymization](https://huggingface.co/PolLabarbarie/diffusion-signflip-anon-face). These weights were trained on FFHQ for 15 epochs with the script in `train_controlnet.py`. You can also train your own ControlNets with different conditioning or datasets by following the instructions in that script. 
 
 The different secret-keys used in the paper experiments are provided under the `keys/` directory for reproducibility. The `keys_CelebA_HQ.pt` file contains the keys used for the CelebA-HQ experiments, while the `sub_keys_diversity_<n>.pt` files contain subsets of keys used for the diversity experiments. These can be downloaded also from the Hugging Face repository linked above.
 
